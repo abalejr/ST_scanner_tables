@@ -4,6 +4,7 @@
  */
 
 wl_redirect_if_not_logged_in();
+wp_enqueue_style("datatables", "https://simplertrading.com/wp-content/themes/simpler-trading/assets/css/min.datatables.css");
 get_header();
 ?>
 
